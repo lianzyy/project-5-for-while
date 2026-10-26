@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Nilai Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Kalkulator Nilai Mahasiswa</h1>
+        <p>Masukkan nama dan lima nilai mata kuliah.</p>
+
+        <label for="nama">Nama Mahasiswa</label>
+        <input type="text" id="nama" placeholder="Masukkan nama">
+
+        <label>Nilai Mata Kuliah 1</label>
+        <input type="number" class="nilai" min="0" max="100" placeholder="Nilai 1">
+
+        <label>Nilai Mata Kuliah 2</label>
+        <input type="number" class="nilai" min="0" max="100" placeholder="Nilai 2">
+
+        <label>Nilai Mata Kuliah 3</label>
+        <input type="number" class="nilai" min="0" max="100" placeholder="Nilai 3">
+
+        <label>Nilai Mata Kuliah 4</label>
+        <input type="number" class="nilai" min="0" max="100" placeholder="Nilai 4">
+
+        <label>Nilai Mata Kuliah 5</label>
+        <input type="number" class="nilai" min="0" max="100" placeholder="Nilai 5">
+
+        <button onclick="hitungNilai()">Hitung Nilai</button>
+
+        <div id="hasil"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
